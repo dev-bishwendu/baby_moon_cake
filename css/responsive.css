@@ -1,0 +1,789 @@
+/*		Desktop Layout: 1170px.
+---------------------------------------------------------------- */
+@media only screen and (min-width: 991px) and (max-width: 1640px) {
+
+    /* Header Style */
+    .header {
+        min-height: 800px;
+        padding-bottom: 200px;
+    }
+    .header::before {
+        height: 350px;
+    }
+    .header .container {
+        max-width: 1024px;
+    }
+    .header .navbar {
+        padding: 34px 0 0;
+    }
+    .header .navbar .eco-nav .nav-item .nav-link {
+        padding: 0px 15px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .header .navbar .twitt-icon {
+        font-size: 10px;
+        border: 1px solid #ffffff;
+        height: 20px;
+        width: 20px;
+        line-height: 19px;
+        margin-left: 6px;
+    }
+    .header .intro-wrapper .intro-text {
+        margin-top: 80px;
+        margin-left: 25%;
+    }
+    .header .intro-wrapper .intro-text h1 {
+        font-size: 114px;
+        line-height: 95px;
+    }
+    .header .intro-wrapper .intro-text .header_action_btn {
+        margin-left: -20px;
+    }
+    .header .intro-wrapper .intro-text .header_action_btn a {
+        line-height: 36px;
+        height: 36px;
+        padding: 0 15px;
+        font-size: 12px;
+        margin-top: 25px;
+    }
+    .header .intro-wrapper .intro-text .header_action_btn {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        margin-left: -20px;
+    }
+    .header .intro-wrapper .hero_banner {
+        padding-top: 70px;
+        max-width: 306px;
+        margin-left: -20px;
+    }
+    .header .intro-wrapper .hero_banner img {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .copy_address {
+        padding: 0;
+    }
+    .copy_address .container {
+        max-width: 1024px;
+    }
+    .copy_address h5{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .copy_address .clients_logo h5 {
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    .copy_address .clients_logo ul li {
+        height: 28px;
+        margin-right: 18px;
+        margin-bottom: 15px;
+    }
+    .form_content {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .search-option .form-group input {
+        height: 40px;
+        min-width: 335px;
+        padding: 0 30px 0 18px;
+        font-size: 14px;
+        border-radius: 10px;
+        border-radius: 6px;
+    }
+    .search-option .submit-btn button {
+        height: 40px;
+        padding: 0 30px;
+        border-radius: 10px;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    input[type="text"]::placeholder {
+        font-size: 12px !important;
+        color: #233558;
+    }
+
+
+
+
+
+
+    
+
+    .tokenomics {
+        padding: 250px 0px 300px;
+    }
+    .tokenomics::after {
+        height: 246px;
+    }
+    .tokenomics .container {
+        max-width: 1024px;
+    }
+    .tokenomics::before {
+        height: 350px;
+    }
+    .tokenomics .tokenomics_content h2 {
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    .tokenomics .tokenomics_content h3, .tokenomics .tokenomics_content h4 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .tokenomics .tokenomics_content h4 {
+        padding-top: 20px;
+    }
+    .tokenomices_progress .single_progress {
+        padding: 0 10px;
+        margin-top: 30px;
+    }
+    .tokenomices_progress .single_progress h3 {
+        font-size: 14px;
+    }
+    .tokenomices_progress .single_progress span {
+        font-size: 60px;
+        line-height: 55px;
+    }
+    .tokenomices_progress .single_progress p {
+        font-size: 12px;
+        margin: 0;
+    }
+    .progress {
+        height: 20px;
+        padding: 2px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+    /*=========={ How To Buy }==============*/
+    .how_to_buy {
+        padding: 0px 0px 240px;
+    }
+    .how_to_buy .container {
+        max-width: 1024px;
+        padding: 0 70px;
+    }
+    .how_to_buy::before {
+        height: 195px;
+    }
+    .how_to_buy .how_to_buy_content h2 {
+        font-size: 45px;
+        padding-bottom: 35px;
+    }
+    .how_to_buy .how_to_buy_content .step_box .single_box {
+        padding: 10px 10px;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+    .how_to_buy .how_to_buy_content .step_box .single_box .step_icon img {
+        height: 45px;
+    }
+    .how_to_buy .how_to_buy_content .step_box .single_box .step_content p {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .how_to_buy .how_to_buy_content .step_box .single_box .step_icon p {
+        font-size: 25px;
+        min-height: 25px;
+        margin-bottom: 15px;
+    }
+    .how_to_buy .how_to_buy_content .step_box .single_box .step_content {
+        min-height: 80px;
+        padding: 20px 0;
+    }
+    .how_to_buy .how_to_buy_content .step_box .single_box .step_icon {
+        width: 95px;
+        padding-top: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .moonmap {
+        padding: 0px 0px 240px;
+        margin-top: 0;
+    }
+    .moonmap .container {
+        max-width: 1024px !important;
+    }
+    .moonmap .moonmap_content h2 {
+        font-size: 45px;
+    }
+    .moonmap_single {
+        padding: 45px 25px 15px 15px;
+        border-radius: 30px;
+        margin: 0;
+    }
+    .moonmap_single p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .moonmap_single .moonmap_icon.moon_i_1 {
+        top: -35px;
+        width: 100px;
+    }
+    .moonmap_single .moonmap_icon.moon_i_2 {
+        top: -60px;
+        width: 97px;
+    }
+    .moonmap_single .moonmap_icon.moon_i_3 {
+        top: -65px;
+        width: 100px;
+    }
+    .moonmap .tokenomics_sky_2 {
+        bottom: 5%;
+    }
+   .tokenomics_sky_1 img {
+        width: 150px;
+    }
+
+    .tokenomics_sky_2 img {
+        width: 150px;
+    }
+
+
+
+
+
+
+    footer {
+        background: #1b2a49;
+        padding: 60px 0 20px;
+    }
+    footer .copyright p {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+/*      Tablet Layout: 768px.    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+        /* Header Style */
+        .header {
+            min-height: 800px;
+            padding-bottom: 200px;
+        }
+        .header::before {
+            height: 350px;
+        }
+        .header .container {
+            max-width: 1024px;
+        }
+        .header .navbar {
+            padding: 34px 0 0;
+        }
+        .header .navbar .eco-nav .nav-item .nav-link {
+            padding: 0px 15px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .header .navbar .twitt-icon {
+            font-size: 10px;
+            border: 1px solid #ffffff;
+            height: 20px;
+            width: 20px;
+            line-height: 19px;
+            margin-left: 6px;
+        }
+        .header .intro-wrapper .intro-text {
+            margin-top: 80px;
+            margin-left: 12%;
+        }
+        .header .intro-wrapper .intro-text h1 {
+            font-size: 88px;
+            line-height: 79px;
+        }
+        .header .intro-wrapper .intro-text .header_action_btn {
+            margin-left: -20px;
+        }
+        .header .intro-wrapper .intro-text .header_action_btn a {
+            line-height: 36px;
+            height: 36px;
+            padding: 0 15px;
+            font-size: 12px;
+            margin-top: 25px;
+        }
+        .header .intro-wrapper .intro-text .header_action_btn {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+            margin-left: -20px;
+        }
+        .header .intro-wrapper .hero_banner {
+            padding-top: 70px;
+            max-width: 306px;
+            margin-left: -20px;
+        }
+        .header .intro-wrapper .hero_banner img {
+            width: 100%;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        .copy_address {
+            padding: 0;
+        }
+        .copy_address .container {
+            max-width: 1024px;
+        }
+        .copy_address h5{
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+        .copy_address .clients_logo h5 {
+            margin-bottom: 30px;
+            font-size: 12px;
+        }
+        .copy_address .clients_logo ul li {
+            height: 28px;
+            margin-right: 18px;
+            margin-bottom: 15px;
+        }
+        .form_content {
+            padding-left: 0px;
+            padding-top: 30px;
+        }
+        .search-option .form-group input {
+            height: 40px;
+            min-width: 250px;
+            padding: 0 30px 0 18px;
+            font-size: 14px;
+            border-radius: 10px;
+            border-radius: 6px;
+        }
+        .search-option .submit-btn button {
+            height: 40px;
+            padding: 0 25px;
+            border-radius: 10px;
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+        input[type="text"]::placeholder {
+            font-size: 12px !important;
+            color: #233558;
+        }
+    
+    
+    
+    
+    
+    
+        
+    
+        .tokenomics {
+            padding: 250px 0px 300px;
+        }
+        .tokenomics::after {
+            height: 246px;
+        }
+        .tokenomics .container {
+            max-width: 1024px;
+        }
+        .tokenomics::before {
+            height: 350px;
+        }
+        .tokenomics .tokenomics_content h2 {
+            font-size: 45px;
+            padding-bottom: 20px;
+        }
+        .tokenomics .tokenomics_content h3, .tokenomics .tokenomics_content h4 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+        .tokenomics .tokenomics_content h4 {
+            padding-top: 20px;
+        }
+        .tokenomices_progress .single_progress {
+            padding: 0 10px;
+            margin-top: 30px;
+        }
+        .tokenomices_progress .single_progress h3 {
+            font-size: 14px;
+        }
+        .tokenomices_progress .single_progress span {
+            font-size: 60px;
+            line-height: 55px;
+        }
+        .tokenomices_progress .single_progress p {
+            font-size: 12px;
+            margin: 0;
+        }
+        .progress {
+            height: 20px;
+            padding: 2px;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       
+    
+    
+    
+    
+    
+    
+        /*=========={ How To Buy }==============*/
+        .how_to_buy {
+            padding: 0px 0px 240px;
+        }
+        .how_to_buy .container {
+            max-width: 1024px;
+            padding: 0 70px;
+        }
+        .how_to_buy::before {
+            height: 195px;
+        }
+        .how_to_buy .how_to_buy_content h2 {
+            font-size: 45px;
+            padding-bottom: 35px;
+        }
+        .how_to_buy .how_to_buy_content .step_box .single_box {
+            padding: 10px 10px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+        }
+        .how_to_buy .how_to_buy_content .step_box .single_box .step_icon img {
+            height: 45px;
+        }
+        .how_to_buy .how_to_buy_content .step_box .single_box .step_content p {
+            font-size: 15px;
+            line-height: 24px;
+        }
+        .how_to_buy .how_to_buy_content .step_box .single_box .step_icon p {
+            font-size: 25px;
+            min-height: 25px;
+            margin-bottom: 9px;
+        }
+        .how_to_buy .how_to_buy_content .step_box .single_box .step_content {
+            min-height: 80px;
+            padding: 20px 0;
+        }
+        .how_to_buy .how_to_buy_content .step_box .single_box .step_icon {
+            width: 95px;
+            padding-top: 0px;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        .moonmap {
+            padding: 0px 0px 240px;
+            margin-top: 0;
+        }
+        .moonmap .container {
+            max-width: 1024px !important;
+        }
+        .moonmap .moonmap_content h2 {
+            font-size: 45px;
+        }
+        .moonmap_single {
+            padding: 45px 25px 15px 15px;
+            border-radius: 30px;
+            margin: 0;
+        }
+        .moonmap_single p {
+            font-size: 17px;
+            line-height: 26px;
+        }
+        .moonmap_single .moonmap_icon.moon_i_1 {
+            top: -35px;
+            width: 100px;
+        }
+        .moonmap_single .moonmap_icon.moon_i_2 {
+            top: -60px;
+            width: 97px;
+        }
+        .moonmap_single .moonmap_icon.moon_i_3 {
+            top: -65px;
+            width: 100px;
+        }
+        .moonmap .tokenomics_sky_2 {
+            bottom: 5%;
+        }
+       .tokenomics_sky_1 img {
+            width: 150px;
+        }
+    
+        .tokenomics_sky_2 img {
+            width: 150px;
+        }
+    
+    
+    
+    
+    
+    
+        footer {
+            background: #1b2a49;
+            padding: 60px 0 20px;
+        }
+        footer .copyright p {
+            font-size: 14px;
+        }
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+---------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+.header {
+    min-height: 800px;
+}
+.container-fluid {
+    padding: 0 15px;
+}
+.mr-auto.sign-in-option {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
+}
+.nav-link.sign-in {
+    width: 95px;
+}
+.header .navbar .sign-in-option .navbar-nav .nav-link.sign-in {
+    width: 95px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.header .navbar .sign-in-option .navbar-nav li .join_now {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 76px;
+}
+.header .navbar .sign-in-option .navbar-nav li a {
+    margin-left: 0px;
+}
+.navbar-brand img {
+    width: 110px;
+    margin-top: 15px;
+}
+.navbar-light .navbar-toggler {
+	color: #ffffff;
+	border-color: transparent;
+	cursor: pointer;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 65px;
+}
+.navbar-nav.mx-auto.eco-nav {
+    background: #212121;
+    padding: 25px 0;
+}
+.header .navbar .eco-nav .nav-item .nav-link {
+    margin-bottom: 10px;
+}
+.sub-title {
+    margin: 0px auto 50px;
+}
+.phone_p{padding: 0;}
+.header .intro-wrapper .intro-text {
+	margin-top: 100px;
+}
+.header .intro-wrapper .intro-text h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0;
+    line-height: 40px;
+}
+.header .intro-wrapper .intro-text p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 40px 15px 60px;
+}
+.header .intro-wrapper .intro-text .search-option .form-group input {
+    height: 60px;
+    min-width: 100%;
+	padding: 0 30px;
+    font-size: 14px;
+}
+.header .intro-wrapper .intro-text .search-option .submit-btn button {
+    height: 60px;
+    width: 60px;
+}
+.header .intro-wrapper .intro-text .search-option .submit-btn button i:before {
+    font-size: 20px;
+}
+
+.ecologytheme_features {
+    padding: 100px 0 70px;
+}
+.ecologytheme_features .eco_features_title {
+    margin-top: 0px;
+    margin-right: 0;
+}
+.ecologytheme_features .eco_features_title h2 {
+    color: #384a5e;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.ecologytheme_features .eco_features_title p {
+    font-size: 15px;
+    padding-bottom: 24px;
+    line-height: 22px;
+}
+.ecologytheme_features .features_items {
+    padding-left: 0;
+    margin-top: 50px;
+}
+.ecologytheme_features .features_single .feature_single_title h4 {
+    font-size: 18px;
+    line-height: 28px;
+}
+.ecologytheme_features .features_single .feature_single_icon img {
+    width: 80px;
+    min-width: 0;
+}
+.ecologytheme_features .features_single {
+    min-height: 100px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.ecologytheme_features .features_single {
+    justify-content: space-between;
+}
+.ecologytheme_features .features_single .feature_single_icon img {
+    width: 113px;
+    min-width: 0;
+    float: right;
+}
+
+
+
+
+
+
+
+}
